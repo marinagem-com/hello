@@ -73,3 +73,12 @@ body {
   color: #000;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 900px) {
+  .container {
+    margin: 50px;
+  }
+  .image-wrapper {
+    width: 100%;
+  }
+}
