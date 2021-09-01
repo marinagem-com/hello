@@ -1,3 +1,10 @@
+/*
+  TODO
+    - mobile
+    - adjust font
+    ~ open graph preview info
+*/
+
 html, body {
   width: 100%;
   height: 100vh;
@@ -68,7 +75,6 @@ body {
   display: inline-block;
   padding: 0 4px;
   margin: 0 -4px;
-  background-color: #CDF400;
   background-color: #CBFB48;
   color: #000;
   text-decoration: none;
