@@ -90,9 +90,23 @@ body {
 
 @media only screen and (max-width: 900px) {
   .container {
-    margin: 50px;
+    margin: 0;
   }
+
   .image-wrapper {
     width: 100%;
+    top: -15%;
+  }
+
+  .text-wrapper {
+    justify-content: flex-end;
+  }
+
+  .text {
+    background-color: #CBFB48;
+  }
+
+  .text > p {
+    margin: 5px 0;
   }
 }
