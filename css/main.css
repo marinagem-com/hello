@@ -90,10 +90,12 @@ body {
 
 @media only screen and (max-width: 900px) {
   .container {
+    position: fixed;
+    height: 100%;
+    height: -webkit-fill-available;
     margin: 0;
     display: flex;
     flex-direction: column;
-    height: 100%;
   }
 
   .image-wrapper {
